@@ -17,10 +17,10 @@ window.addEventListener('load', ()=> {
            lon = posicion.coords.longitude
            lat = posicion.coords.latitude
             //ubicación actual    
-           //const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=9de497b0a16ad50a10913eb4e25c5602`
+           //const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${AQUI_VIENE_TU_API_KEY}`
 
            //ubicación por ciudad
-           const url = `https://api.openweathermap.org/data/2.5/weather?q=Madrid&lang=es&units=metric&appid=9de497b0a16ad50a10913eb4e25c5602`
+           const url = `https://api.openweathermap.org/data/2.5/weather?q=Madrid&lang=es&units=metric&appid=${AQUI_VIENE_TU_API_KEY}`
 
            //console.log(url)
 
